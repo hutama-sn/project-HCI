@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    background-image : url('../image/content.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.header{
+    background-image: url('../image/header.jpg');
+    width: 100%;
+    height: max-content;
+    background-size: cover;
+    display: flex;
+}
+
+.header img{
+    text-align: center;
+    height: 75px;
+    width: 75px;
+}
+
+.logo{
+    width: 100%;
+    height: 85px;
+}
+
+.logo img{
+    height: 75px;
+    width: 75px;
+}
+
+.dropbtn {
+    background-color: #eec117;
+    width: 100%;
+    height: 85px;
+    color: black;
+    font-size: 16px;
+    border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    right: 0;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d11818;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(168, 23, 23, 0.2);
+    z-index: 1;
+    right: 0;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    width: 250px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:#eea317}
+.dropdown:hover .dropdown-content {display: block;z-index: 1;}
+.dropdown:hover .dropbtn {background-color: #eea317;
+color: white;}
+
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.gambar{
+    width: 30%;
+    margin: 50px;
+}
+
+.gambar img{
+    width: 200%;
+    height: auto;
+}
+
+.Registration-Form{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 50px;
+    width: 50%;
+    height: max-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Registration{
+    background-color: black;
+    opacity: 0.8;
+    padding: 50px 20px;
+    border-radius: 0.5cm;
+} 
+
+#Registration img{
+    width: 200px;
+    height: 200px;
+}
+
+#Registration h5{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.button{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#but{
+    color:azure;
+    font-size: 18px;
+}
+
+#submit{
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+    background-color: aliceblue;
+    border: 2px blanchedalmond;
+    font-size: 18px;
+}
+
+#submit:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    background-image: url('../image/Footer.png');
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.social{
+    height: 50px;
+    width: 50px;
+    margin-right: 10pt;
+    margin-top: 30px;
+}
+
+#Error{
+    color: red;
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        margin: 0;
+        background-image : url('../image/content.jpg');
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .content{
+        width: 90%;
+        height: max-content;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .gambar{
+        width: 10%;
+    }
+    
+    .gambar img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+    
+    #Registration{
+        position: relative;
+        right: 55px;
+        width: 150px;
+    }
+
+    #Registration img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #Registration h5{
+        color: white;
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .button{
+        width: 100px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #but{
+        color:azure;
+        font-size: 10px;
+        /* text-align: center; */
+    }
+
+    .fml{
+        position: relative;
+        right: 15px;
+    }
+    
+    .rbMale{
+        position: relative;
+        left: 13px;
+    }
+
+}

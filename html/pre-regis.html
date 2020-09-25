@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre- Registration | Xtream Chaser</title>
+    <link rel="stylesheet" href="../css/pre-regis.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class = "header">
+        <div class="logo">
+            <a href="HomepageXC.html"><img src="../image/logo.png" alt="logo"> </a> 
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="HomepageXC.html">Home</a>
+              <a href="pre-regis.html">Pre-Registration</a>
+              <a href="Lore.html">Lore</a>
+              <a href="Character.html">Characters</a>
+              <a href="Galleries.html">Galleries</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class= "gambar">
+            <img src="../image/image4.png" alt="gambar">
+        </div>
+
+        <div class ="Registration-Form"> 
+            <form name="form1" action="pre-regis.html" method:"POST" id="Registration" name="Registration">
+                    <img src="../image/logo.png" alt="logo"><br><br>
+                    <h5>Email</h5>
+                    <input type="email" class="button" id="email" placeholder="Email" required>
+
+                    <h5>Username</h5>
+                    <input type="text" class="button" id="Username" placeholder="Username" required>
+                    <br>
+
+                    <h5>Password</h5>
+                    <input type="password" class="button" id="Password" placeholder ="Password" required>
+                    <br>
+
+                    <h5>Country</h5>
+                    <select class="button" placeholder="Country" id="Country">
+                        <option value="America">America</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Indonesia">Indonesia</option></select>
+                    <br> 
+                    
+                    <h5>Date of Birth</h5><br>
+                    <input type="date" class="button" id="dob" required>
+                    <br>
+
+                    <h5>Gender</h5>
+                    <input type="radio" name="Gender" class="rbMale" id="Male">&nbsp;&nbsp;&nbsp;&nbsp;<span id = "but" >Male</span>&nbsp;
+                    <input type="radio" name="Gender" class="rbFemale" id="Female">&nbsp;&nbsp;&nbsp;&nbsp;<span id = "but" class="fml">Female</span>
+                    <br><br>
+
+                    <input type="checkbox" class="but" id="agreement" placeholder="agreement to user terms" required><span id = "but"> &nbsp; i agree to the user terms & condition</span>
+                    <br><br>
+
+                    <label id="Error"></label><br><br>
+
+                    <input type="submit" class="button" id="Register" value="Submit" onclick="validateForm();">
+                    <br><br>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class = "footer">
+        <a href="https://facebook.com/">
+            <img src="../image/fb.png" alt="fb" class = "social"></a>
+        <a href="https://twitter.com/">
+            <img src="../image/ig.png" alt="ig" class = "social"></a>
+        <a href="https://instagram.com/">
+            <img src="../image/tw.png" alt="tw" class = "social"></a>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="../js/regis.js"></script>
